@@ -1,0 +1,44 @@
+.tb-container {
+    overflow-x: auto; /* Needed for table to be responsive */
+  }
+  
+  .tb {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .tb-head {
+    background-color:#501B1D;
+  }
+  
+  .tb-head tr th {
+    padding: 10px 20px;
+    color: white;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  .tb-body {
+    text-align: left;
+    background-color:  #64485C;
+  }
+  
+  .tb-body tr td {
+    padding: 24px 20px;
+    border-bottom: 2px solid #501B1D; /* #243647; */
+    color: #83677B;
+    cursor: pointer;
+  }
+  
+  .tb-id {
+    color: #ADADAD;
+    margin-right: 18px;
+    font-size: 12px;
+  }
+  
+  .tb-name {
+    color: #ADADAD;
+    margin-right: 6px;
+  }

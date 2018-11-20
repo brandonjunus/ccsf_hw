@@ -1,0 +1,17 @@
+.Header {
+    background-color: #2E1114;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+}
+
+
+
+
+
+  
